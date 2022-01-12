@@ -11,7 +11,7 @@ public class MenuEdicioPersonatge : MonoBehaviour
     private int opcioCabell = 0;
     private int opcioCabellColor = 0;
     private int opcioCabellColor1 = 6;
-
+    
 
     public void SeguentOpcio()
     {
