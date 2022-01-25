@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMoviment : MonoBehaviour
 {
-    public float velocitat = 50f;
+    [SerializeField] private float velocitat = 50f;
     private Rigidbody2D personatge;
     public int temporitzador = 0;
     public int framesAnimacio;
@@ -98,9 +98,9 @@ public class PlayerMoviment : MonoBehaviour
         }
 
         GameObject.Find("PersonatgeFinal").transform.GetChild(0).transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>().sprite = animacioMoviment[0, moviment + ultim, estatAnimacio];
-        GameObject.Find("PersonatgeFinal").transform.GetChild(0).transform.GetChild(1).gameObject.GetComponent<SpriteRenderer>().sprite = animacioMoviment[1, moviment + ultim, estatAnimacio];
-        GameObject.Find("PersonatgeFinal").transform.GetChild(1).gameObject.GetComponent<SpriteRenderer>().sprite = animacioMoviment[2, moviment + ultim, estatAnimacio];
-        GameObject.Find("PersonatgeFinal").transform.GetChild(2).gameObject.GetComponent<SpriteRenderer>().sprite = animacioMoviment[3, moviment + ultim, estatAnimacio];
+        GameObject.Find("PersonatgeFinal").transform.GetChild(0).transform.GetChild(1).gameObject.GetComponent<SpriteRenderer>().sprite = animacioMoviment[2, moviment + ultim, estatAnimacio];
+        GameObject.Find("PersonatgeFinal").transform.GetChild(1).gameObject.GetComponent<SpriteRenderer>().sprite = animacioMoviment[3, moviment + ultim, estatAnimacio];
+        GameObject.Find("PersonatgeFinal").transform.GetChild(2).gameObject.GetComponent<SpriteRenderer>().sprite = animacioMoviment[1, moviment + ultim, estatAnimacio];
 
         personatge.MovePosition(personatge.position + movement * (int)velocitat );
         personatge.rotation = 0 ;

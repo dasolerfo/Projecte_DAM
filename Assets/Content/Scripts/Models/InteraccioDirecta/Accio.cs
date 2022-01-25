@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 //S'ha de modificar
-[CreateAssetMenu(fileName = "New Accio", menuName = " New Accio")]
+// [CreateAssetMenu(fileName = "New Accio", menuName = " New Accio")]
 public class Accio : ScriptableObject
 {
     /*

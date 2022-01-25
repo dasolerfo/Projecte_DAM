@@ -20,11 +20,10 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -302,16 +301,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      ojo_normal_azul2_3: -1766508916
-      ojo_normal_azul2_2: 1715015933
-      ojo_normal_azul2_5: -2101128116
-      ojo_normal_azul2_4: 1820783537
-      ojo_normal_azul2_6: 1388079227
-      ojo_normal_azul2_0: 1721987578
-      ojo_normal_azul2_7: -556419707
-      ojo_normal_azul2_1: -313292128
-      ojo_normal_azul2_8: -793526803
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

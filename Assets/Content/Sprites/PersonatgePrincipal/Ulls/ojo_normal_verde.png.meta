@@ -20,11 +20,10 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -47,7 +46,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -302,16 +301,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      ojo_normal_verde_1: -360676396
-      ojo_normal_verde_8: 1751619577
-      ojo_normal_verde_3: -869764740
-      ojo_normal_verde_7: -1841639028
-      ojo_normal_verde_5: 1060194558
-      ojo_normal_verde_0: 1126422977
-      ojo_normal_verde_6: 1507484360
-      ojo_normal_verde_2: 1198776121
-      ojo_normal_verde_4: 620624469
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

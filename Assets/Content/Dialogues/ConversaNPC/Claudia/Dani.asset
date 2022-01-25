@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2efb578ff64244991c86de11e64a16, type: 3}
+  m_Name: Dani
+  m_EditorClassIdentifier: 
+  nomActor: Dani
+  veuPersonatge: {fileID: 8300000, guid: 03914e64a161ccf41abf75f80b1ad244, type: 3}
